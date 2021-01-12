@@ -82,3 +82,14 @@ h1{
 .hide {
   display: none;
 }
+
+@media (max-width: 425px){
+  .btn-start{
+    left: calc(50% - 163px)
+}
+}
+@media (max-width: 320px){
+  .btn-start{
+    left: calc(50% - 117px);
+}
+}
